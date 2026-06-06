@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego del Gato - Modo Oscuro</title>
+</head>
+<body>
+
+    <div id="game-container">
+        
+        <div id="scoreboard">
+            <div class="score-box">Jugador X: <span id="scoreX">0</span></div>
+            <div class="score-box">Jugador O: <span id="scoreO">0</span></div>
+        </div>
+
+        
+        <div id="turn-indicator">Turno de: <span id="current-player" class="player-x">X</span></div>
+
+        
+        <div id="board">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            
+            
+            <div id="winning-line"></div>
+        </div>
+
+        
+        <div id="results"></div>
+        <button id="restart">Reiniciar Juego</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
